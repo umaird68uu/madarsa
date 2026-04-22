@@ -33,6 +33,7 @@ const Sidebar = ({ activeTab, setActiveTab, userRole }) => {
     { id: 'progress', label: 'Progress Tracking', icon: TrendingUp, roles: ['principle', 'admin'] },
     { id: 'sections', label: 'Classes & Shifts', icon: BookOpen, roles: ['principle', 'admin'] },
     { id: 'teachers', label: 'Teachers', icon: UserCheck, roles: ['principle'] },
+
     { id: 'ai-insights', label: 'AI Insights', icon: MessageSquare, roles: ['principle'] },
   ];
 
